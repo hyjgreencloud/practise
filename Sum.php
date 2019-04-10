@@ -77,7 +77,7 @@ class Solution {
             if($key=array_search($rest,$nums)){
                 array_push($result,$k);
                 array_push($result,$key);
-                unset($nums[$key]);continue;
+                unset($nums[$key]);
             }
         }
         return $result;
